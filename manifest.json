@@ -57,8 +57,8 @@
       "name": "path",
       "type": "path",
       "ask": {
-        "en": "Choose a path for your Shaarli",
-        "fr": "Choisissez un chemin pour votre Shaarli"
+        "en": "Choose a path for your Shaarli (we recommend to set it to /shaarli_$username)",
+        "fr": "Choisissez un chemin pour votre Shaarli (nous recommandons d'utiliser /shaarli_$username)"
       },
       "example": "/shaarli",
       "default": "/shaarli"
