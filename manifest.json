@@ -28,30 +28,13 @@
       "example": "domain.org"
     },
     {
-      "name": "is_public",
-      "ask": {
-        "en": "Is it a public Shaarli site ?",
-        "fr": "Est-ce un site Shaarli public ?"
-      },
-      "choices": ["Yes", "No"],
-      "default": "Yes"
-    },
-    {
       "name": "admin",
       "type": "user",
       "ask": {
-        "en": "Admin user",
-        "fr": "Administrateur"
+        "en": "Owner of the Shaarli instance",
+        "fr": "Propriétaire de l'instance Shaarli"
       },
       "example": "test"
-    },
-    {
-      "name": "password",
-      "type": "password",
-      "ask": {
-        "en": "Define password for Shaarli user",
-        "fr": "Définissez le mot de passe de l'utilisateur Shaarli"
-      }
     },
     {
       "name": "path",
@@ -71,15 +54,6 @@
       },
       "example": "Shaarli",
       "default": "Shaarli"
-    },
-    {
-      "name": "privatelinkbydefault",
-      "ask": {
-        "en": "Are new links private by default ?",
-        "fr": "Les nouveaux liens sont-ils privés par défaut ?"
-      },
-      "choices": ["Yes", "No"],
-      "default": "Yes"
     }
     ]
   }
